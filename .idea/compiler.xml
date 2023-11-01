@@ -6,8 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="chatgpt" />
+        <module name="chatbot-application" />
+        <module name="chatbot-infrastructure" />
+        <module name="chatbot-domain" />
+        <module name="chatbot-interfaces" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="chatbot-application" options="-parameters" />
+      <module name="chatbot-domain" options="-parameters" />
+      <module name="chatbot-infrastructure" options="-parameters" />
+      <module name="chatbot-interfaces" options="-parameters" />
+    </option>
   </component>
 </project>

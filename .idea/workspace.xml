@@ -4,18 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="初始化项目">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="第1节：初始化项目">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-application/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-application/src/main/java/com/lystudy/chatbot/api/application/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-infrastructure/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-infrastructure/src/main/java/com/lystudy/chatbot/api/infrastructure/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-interfaces/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-interfaces/src/main/java/com/lystudy/chatbot/api/ApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-interfaces/src/test/java/com/lystudy/chatbot/api/test/ApiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="package-info" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,9 +56,31 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ApiTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="chatbot-interfaces" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lystudy.chatbot.api.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lystudy.chatbot.api.test.ApiTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -53,8 +91,16 @@
       <option name="presentableId" value="Default" />
       <updated>1698841999778</updated>
       <workItem from="1698842001117" duration="295000" />
-      <workItem from="1698842309170" duration="825000" />
+      <workItem from="1698842309170" duration="3862000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目">
+      <created>1698843374360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698843374360</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -62,6 +108,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始化项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化项目" />
+    <MESSAGE value="第1节：初始化项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="第1节：初始化项目" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
