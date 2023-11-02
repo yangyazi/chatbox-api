@@ -94,7 +94,7 @@
     </dependencyManagement>
 
     <build>
-        <finalName>chatbot-api</finalName>
+        <finalName>chatgpt</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>

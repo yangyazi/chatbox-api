@@ -19,6 +19,7 @@
       <module name="chatbot-domain" options="-parameters" />
       <module name="chatbot-infrastructure" options="-parameters" />
       <module name="chatbot-interfaces" options="-parameters" />
+      <module name="chatgpt" options="-parameters" />
     </option>
   </component>
 </project>
