@@ -6,11 +6,13 @@ package com.lystudy.chatbot.api.domain.zsxq.model.vo;
  * @github https://github.com/fuzhengwei
  * @copyright 公众号：bugstack虫洞栈 | 博客：https://bugstack.cn - 沉淀、分享、成长，让自己和他人都能有所收获！
  */
-public class OwnerDetail {
-
+public class OwnerDetail
+{
     private int questions_count;
 
     private String join_time;
+
+    private String status;
 
     public void setQuestions_count(int questions_count){
         this.questions_count = questions_count;
@@ -24,5 +26,10 @@ public class OwnerDetail {
     public String getJoin_time(){
         return this.join_time;
     }
-
+    public void setStatus(String status){
+        this.status = status;
+    }
+    public String getStatus(){
+        return this.status;
+    }
 }

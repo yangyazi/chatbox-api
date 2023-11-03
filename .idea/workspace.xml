@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="第2节：知识星球API调用" />
+    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chatbot-application/src/main/java/com/lystudy/chatbot/api/application/job/ChatbotSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/service/OpenAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/service/OpenAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-domain/target/classes/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/target/classes/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +45,7 @@
     </excluded-from-favorite>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="23_zsxq_api" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -58,6 +68,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -75,7 +89,7 @@
       <recent name="E:\java\chatgpt\chatbot-domain\src\main\java\com\lystudy\chatbot\api\domain\zsxq\model\res" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringBootRunTest.test_oepnAI">
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration name="ApiTest.query_unanswered_questions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="chatbot-interfaces" />
       <extension name="coverage">
@@ -164,10 +178,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ApiTest.query_unanswered_questions" />
+        <item itemvalue="JUnit.SpringBootRunTest.test_zsxqApi" />
         <item itemvalue="JUnit.SpringBootRunTest.test_oepnAI" />
         <item itemvalue="JUnit.ApiTest.test_chatGPT" />
-        <item itemvalue="JUnit.SpringBootRunTest.test_zsxqApi" />
-        <item itemvalue="JUnit.ApiTest.query_unanswered_questions" />
         <item itemvalue="JUnit.SpringBootRunTest" />
       </list>
     </recent_temporary>
@@ -219,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698934683633</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="第4节：chatgpt API调用">
+      <created>1698983507478</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698983507478</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,7 +252,24 @@
     <MESSAGE value="第2节：知识星球API调用" />
     <MESSAGE value="第3节：知识星球领域服务开发" />
     <MESSAGE value="第3节：领域开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="第3节：领域开发" />
+    <MESSAGE value="第4节：chatgpt API调用" />
+    <option name="LAST_COMMIT_MESSAGE" value="第4节：chatgpt API调用" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chatbot-application/src/main/java/com/lystudy/chatbot/api/application/job/ChatbotSchedule.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/service/ZsxqApi.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

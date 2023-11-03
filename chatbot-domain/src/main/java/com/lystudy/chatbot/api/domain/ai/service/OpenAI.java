@@ -49,14 +49,14 @@ public class OpenAI implements IOpenAI {
 
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-        // 添加请求日志
-        logger.info("Sending request to OpenAI API");
-
-// 构建Authorization头
-        String authorization = "Bearer " + openAiKey;
-
-// 打印Authorization头部值
-        logger.info("Authorization: " + authorization);
+//        // 添加请求日志
+//        logger.info("Sending request to OpenAI API");
+//
+//// 构建Authorization头
+//        String authorization = "Bearer " + openAiKey;
+//
+//// 打印Authorization头部值
+//        logger.info("Authorization: " + authorization);
 
         HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
         post.addHeader("Content-Type", "application/json");
@@ -81,6 +81,7 @@ public class OpenAI implements IOpenAI {
             for (Choices choice : choices) {
                 answers.append(choice.getMessage().getContent());
             }
+            logger.info(answers.toString());
             return answers.toString();
         } else {
             throw new RuntimeException("api.openai.com Err Code is " + response.getStatusLine().getStatusCode());
