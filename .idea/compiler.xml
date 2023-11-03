@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="chatbot-application" target="8" />
+      <module name="chatbot-domain" target="8" />
+      <module name="chatbot-infrastructure" target="8" />
+      <module name="chatbot-interfaces" target="8" />
+      <module name="chatgpt" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

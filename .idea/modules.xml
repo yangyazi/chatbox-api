@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chatbot-application/chatbot-application.iml" filepath="$PROJECT_DIR$/chatbot-application/chatbot-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-domain/chatbot-domain.iml" filepath="$PROJECT_DIR$/chatbot-domain/chatbot-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatbot-infrastructure/chatbot-infrastructure.iml" filepath="$PROJECT_DIR$/chatbot-infrastructure/chatbot-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interfaces/chatbot-interfaces.iml" filepath="$PROJECT_DIR$/interfaces/chatbot-interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chatgpt.iml" filepath="$PROJECT_DIR$/chatgpt.iml" />
+    </modules>
+  </component>
+</project>
