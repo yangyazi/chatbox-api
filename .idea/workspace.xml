@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="第2节：知识星球API调用">
-      <change afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/IOpenAI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/model/aggregates/AIAnswer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/model/vo/Choices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/service/OpenAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/src/test/java/com/lystudy/chatbot/api/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/src/test/java/com/lystudy/chatbot/api/test/ApiTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/src/test/java/com/lystudy/chatbot/api/test/SpringBootRunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/src/test/java/com/lystudy/chatbot/api/test/SpringBootRunTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/target/test-classes/com/lystudy/chatbot/api/test/ApiTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/target/test-classes/com/lystudy/chatbot/api/test/ApiTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/target/test-classes/com/lystudy/chatbot/api/test/SpringBootRunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/target/test-classes/com/lystudy/chatbot/api/test/SpringBootRunTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="第2节：知识星球API调用" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
