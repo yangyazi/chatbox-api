@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chatbot-application/src/main/java/com/lystudy/chatbot/api/application/job/ChatbotSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-application/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/service/OpenAI.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/ai/service/OpenAI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-domain/target/classes/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-domain/target/classes/com/lystudy/chatbot/api/domain/zsxq/model/vo/OwnerDetail.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-interfaces/target/classes/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="0e2033dd-7a1a-4319-b9ea-0ddd8ee4492d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -240,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698983507478</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="第节：chatgpt 知识星球整合">
+      <created>1699001885520</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1699001885520</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,20 +250,21 @@
     <MESSAGE value="第3节：知识星球领域服务开发" />
     <MESSAGE value="第3节：领域开发" />
     <MESSAGE value="第4节：chatgpt API调用" />
-    <option name="LAST_COMMIT_MESSAGE" value="第4节：chatgpt API调用" />
+    <MESSAGE value="第节：chatgpt 知识星球整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="第节：chatgpt 知识星球整合" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/chatbot-application/src/main/java/com/lystudy/chatbot/api/application/job/ChatbotSchedule.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/service/ZsxqApi.java</url>
           <line>46</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chatbot-domain/src/main/java/com/lystudy/chatbot/api/domain/zsxq/service/ZsxqApi.java</url>
+          <line>82</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
