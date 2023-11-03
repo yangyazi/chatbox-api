@@ -74,37 +74,9 @@ public class ApiTest {
         }
     }
 
-//    @Test
-//    public void test_chatGPT() throws IOException {
-//        System.setProperty("http.proxyHost", "127.0.0.1");
-//        System.setProperty("http.proxyPort", "7890");
-//        CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-//
-//        HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
-//        post.addHeader("Content-Type", "application/json");
-//        post.addHeader("Authorization", "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");
-//
-//        String paramJson = "{\n" +
-//                "     \"model\": \"gpt-3.5-turbo\",\n" +
-//                "     \"messages\": [{\"role\": \"user\", \"帮我写一个java冒泡排序\": \"Say this is a test!\"}],\n" +
-//                "     \"temperature\": 0.7\n" +
-//                "   }";
-//
-//        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
-//        post.setEntity(stringEntity);
-//
-//        CloseableHttpResponse response = httpClient.execute(post);
-//        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-//            String res = EntityUtils.toString(response.getEntity());
-//            System.out.println(res);
-//        } else {
-//            System.out.println(response.getStatusLine().getStatusCode());
-//        }
-//
-//    }
 
     @Test
-    public void test_chatGPT() {
+    public void test_chatGPT() throws IOException {
         String proxyHost  = "127.0.0.1";//本机地址
         int proxyPort = 7890; //代理端口号
         //创建一个 HttpHost 实例，这样就设置了代理服务器的主机和端口。
@@ -114,43 +86,30 @@ public class ApiTest {
                 .setProxy(proxy)
                 .build();
 
-
-
         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-        try {
-            HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
-            post.addHeader("Content-Type", "application/json");
-            post.addHeader("Authorization", "Bearer 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");
+        HttpPost post = new HttpPost("https://api.openai.com/v1/chat/completions");
+        post.addHeader("Content-Type", "application/json");
+        post.addHeader("Authorization", "Bearer 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");
+        post.setConfig(requestConfig);
+        String paramJson = "{\n" +
+                "     \"model\": \"gpt-3.5-turbo\",\n" +
+                "     \"messages\": [{\"role\": \"user\", \"content\": \"翻译成英语 我爱你\"}],\n" +
+                "     \"temperature\": 0.7\n" +
+                "   }";
+        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+        post.setEntity(stringEntity);
 
 
 
-            // 新增代码：将代理类放入配置中
-            post.setConfig(requestConfig);
-
-//
-            String paramJson = "{\n" +
-                    "     \"model\": \"gpt-3.5-turbo\",\n" +
-                    "     \"messages\": [{\"role\": \"user\", \"content\": \"帮我写一个java冒泡排序\"}],\n" +
-                    "     \"temperature\": 0.7\n" +
-                    "   }";
-
-//            String paramJson = "{\"model\": \"text-davinci-003\", \"prompt\": \"帮我写一个java冒泡排序\", \"temperature\": 0, \"max_tokens\": 1024}";
-            StringEntity stringEntity = new StringEntity(paramJson, StandardCharsets.UTF_8);
-            post.setEntity(stringEntity);
-
-            try (CloseableHttpResponse response = httpClient.execute(post)) {
-                if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
-                    String res = EntityUtils.toString(response.getEntity());
-                    System.out.println(res);
-                } else {
-                    System.out.println(response.getStatusLine().getStatusCode());
-                }
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
+        CloseableHttpResponse response = httpClient.execute(post);
+        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+            String res = EntityUtils.toString(response.getEntity());
+            System.out.println(res);
+        } else {
+            System.out.println(response.getStatusLine().getStatusCode());
         }
-    }
 
+    }
 
 }

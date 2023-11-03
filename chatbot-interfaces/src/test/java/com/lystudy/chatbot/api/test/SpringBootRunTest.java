@@ -1,6 +1,7 @@
 package com.lystudy.chatbot.api.test;
 
 import com.alibaba.fastjson.JSON;
+import com.lystudy.chatbot.api.domain.ai.IOpenAI;
 import com.lystudy.chatbot.api.domain.zsxq.IZsxqApi;
 import com.lystudy.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
 import com.lystudy.chatbot.api.domain.zsxq.model.vo.Topics;
@@ -38,6 +39,9 @@ public class SpringBootRunTest {
     @Resource(name="zsxqApi")
     private IZsxqApi zsxqApi;
 
+    @Resource(name = "openAI")
+    private IOpenAI openAI;
+
     @Test
     public void test_zsxqApi() throws IOException {
         UnAnsweredQuestionsAggregates unAnsweredQuestionsAggregates = zsxqApi.queryUnAnsweredQuestionsTopicId(groupId, cookie);
@@ -53,5 +57,12 @@ public class SpringBootRunTest {
             zsxqApi.answer(groupId, cookie, topicId, text, false);
         }
     }
+
+    @Test
+    public void test_oepnAI() throws IOException {
+        String response = openAI.doChatGpt("翻译成英语  我爱你");
+        logger.info("测试结果：{}", response);
+    }
+
 
 }
